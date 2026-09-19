@@ -45,7 +45,8 @@ JavaScript is used to:
 
 A personal portfolio website developed using HTML, CSS and JavaScript.
 
-### 🧠 MindReader AI
+### 🧠 MindReader Game (In Progress)
+
 
 A character guessing game project created as part of my Software Engineering studies.
 
