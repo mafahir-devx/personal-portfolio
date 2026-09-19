@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💻 Personal Portfolio Website
 
 A simple personal portfolio website created as part of my Web Development assignment.
