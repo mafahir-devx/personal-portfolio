@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💻 Personal Portfolio Website
 
 A simple personal portfolio website created as part of my Web Development assignment.
@@ -87,3 +88,46 @@ This project was developed as part of a Web Development assignment focusing on:
 ---
 
 © 2026 **Mafahir M**
+=======
+# 🌐 web.dev
+
+A modern web development project built with **HTML, CSS, and JavaScript**.
+
+## 🚀 About
+
+This repository contains my web development project and serves as a space to build, experiment, and improve my frontend development skills.
+
+## 🛠️ Technologies
+
+* HTML5
+* CSS3
+* JavaScript
+
+## 📂 Project Structure
+
+```text
+web.dev/
+├── index.html
+└── README.md
+```
+
+## ▶️ Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mafahir-devx/web.dev.git
+```
+
+Open the project folder and launch `index.html` in your browser.
+
+## 👨‍💻 Author
+
+**Mafahir M**
+
+GitHub: [@mafahir-devx](https://github.com/mafahir-devx)
+
+---
+
+⭐ Feel free to explore the project!
+>>>>>>> 38ac276 (Finalize portfolio assignment)
