@@ -1,0 +1,353 @@
+
+body {
+    font-family: Poppins, Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+
+/* Header */
+
+header {
+    background-color: #252525;
+    color: white;
+    padding: 20px;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections */
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Home */
+
+.home {
+    max-width: none;
+    background-color: white;
+}
+
+.home-content {
+    max-width: 1000px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.home-text h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.home-text h3 {
+    font-weight: normal;
+}
+
+.home-text p {
+    line-height: 1.6;
+}
+
+
+/* Buttons */
+
+.button,
+.github-button {
+    display: inline-block;
+
+    background-color: #007a37;
+    color: white;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    margin-top: 10px;
+}
+
+.button:hover,
+.github-button:hover {
+    background-color: #000000;
+}
+
+
+/* About */
+
+.about-content {
+    display: flex;
+    gap: 30px;
+}
+
+.about-content > div {
+    flex: 1;
+
+    background-color: white;
+    padding: 20px;
+
+    border: 1px solid #ddd;
+}
+
+.about-content p {
+    line-height: 1.6;
+}
+
+
+/* Skills */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    flex: 1;
+    min-width: 150px;
+
+    background-color: white;
+
+    padding: 20px;
+
+    border: 1px solid #ddd;
+
+    text-align: center;
+}
+
+.skill h3 {
+    margin-top: 0;
+}
+
+
+/* Projects */
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+}
+
+.project {
+    flex: 1;
+
+    background-color: white;
+
+    padding: 20px;
+
+    border: 1px solid #ddd;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    line-height: 1.5;
+}
+
+
+/* Contact */
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-info {
+    flex: 1;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border: 1px solid #ddd;
+}
+
+.contact-info p {
+    line-height: 1.6;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+form {
+    background-color: white;
+
+    padding: 25px;
+
+    border: 1px solid #ddd;
+}
+
+
+/* form */
+
+label {
+    display: block;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+
+    font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #0057cf;
+}
+
+
+/* error Messages */
+
+.error {
+    display: block;
+
+    color: #d00000;
+
+    font-size: 14px;
+
+    margin-top: 5px;
+}
+
+
+/* Success Message */
+
+.success {
+    color: #008000;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+}
+
+
+/* Submit Button */
+
+button {
+    background-color: #0057cf;
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 700px) {
+
+    .header-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-text h2 {
+        text-align: center;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+}

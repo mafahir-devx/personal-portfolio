@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mafahir | Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+
+        <div class="header-content">
+
+            <div>
+                <h1>Mafahir M</h1>
+                <p>Software Engineering Student</p>
+            </div>
+
+            <!-- navigation -->
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- home -->
+    <section id="home" class="home">
+
+        <div class="home-content">
+
+            <div class="home-text">
+
+                <h1>Hello, I'm Mafahir</h1>
+                <h3>Software Engineering Student</h3>
+
+                <p>
+                    Welcome to my personal portfolio. I am interested in
+                    software development, web development and technology.
+                </p>
+
+                <a href="#contact" class="button">Contact Me</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <div class="about-content">
+
+            <div>
+                <h3>Who I Am</h3>
+
+                <p>
+                    I am currently studying Software Engineering and
+                    developing my knowledge in programming and web development.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies and creating
+                    simple and useful software projects.
+                </p>
+            </div>
+
+            <div>
+                <h3>My Goal</h3>
+
+                <p>
+                    My goal is to improve my technical skills and become a
+                    DevSecOps Engineer.
+                </p>
+
+                <p>
+                    I am continuously learning and working on practical
+                    projects to gain experience.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- skills -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Creating web page structures.</p>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Styling and designing web pages.</p>
+            </div>
+
+            <div class="skill">
+                <h3>C#</h3>
+                <p>Desktop application development.</p>
+            </div>
+
+            <div class="skill">
+                <h3>.NET</h3>
+                <p>Learning modern software development.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Git & GitHub</h3>
+                <p>Managing and sharing code.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- my projects -->
+    <section id="projects">
+
+        <h2>My Real Projects </h2>
+
+        <div class="projects-container">
+
+               <div class="project">
+
+            <h3>Coaching Management System</h3>
+
+            <p>
+A Coaching Centre Management System automates student records, fee tracking, batch scheduling, and attendance management.
+        </div>
+
+            <div class="project">
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A simple personal portfolio website created using
+                    HTML and CSS.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>MindReader AI</h3> <h6>(In Progress)</h6>
+
+                <p>
+                    A character guessing game project created as part
+                    of my software engineering studies.
+                </p>
+                
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>Student Project</h3>
+
+                <p>
+                    A simple software project created to practise
+                    programming and problem-solving skills.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- contact -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <div class="contact-container">
+
+            <!-- contact information -->
+            <div class="contact-info">
+
+                <h3>Get In Touch With Me!</h3>
+
+                <p>
+                    If you have any questions or would like to contact me,
+                    feel free to send me a message.
+                </p>
+
+                <p>
+                    <strong>Location:</strong><br>
+                    Sri Lanka
+                </p>
+
+                <a href="https://github.com/mafahir-devx"
+                   target="_blank"
+                   class="github-button">
+                    My GitHub
+                </a>
+
+            </div>
+
+
+            <!-- contact form -->
+            <div class="contact-form">
+
+                <form id="contactForm">
+
+                    <label for="name">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                    >
+
+                    <small id="nameError" class="error"></small>
+
+
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                    >
+
+                    <small id="emailError" class="error"></small>
+
+
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Enter the subject"
+                    >
+
+                    <small id="subjectError" class="error"></small>
+
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message"
+                    ></textarea>
+
+                    <small id="messageError" class="error"></small>
+
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                    <p id="successMessage" class="success"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- javaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
