@@ -44,13 +44,15 @@ contactForm.addEventListener("submit", function(event) {
 
 
     // validate Full Name
+    const namePattern = /^[A-Za-z]+(?:\s+[A-Za-z]+)*$/;
+
     if (name === "") {
 
         nameError.textContent = "Please enter your full name.";
 
         isValid = false;
 
-    } else if (name.length < 3) {
+    } else if (name.length < 2 || !namePattern.test(name)) {
 
         nameError.textContent = "Please enter a valid full name.";
 
